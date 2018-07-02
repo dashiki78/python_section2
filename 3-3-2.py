@@ -10,3 +10,4 @@ sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 payload1 = {'key1':'value1', 'key2':'value2'}
 payload2 = (('key1','value1'),('key2','value2'))
 payload3 = {'some':'nice'}
+payload4 ={"hi":"hello"}
